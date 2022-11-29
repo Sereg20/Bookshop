@@ -6,4 +6,5 @@ entity Books : managed {
     ID: UUID @(Core.Computed: true);
     title: String;
     descr: String;
+    
 }
