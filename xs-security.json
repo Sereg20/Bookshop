@@ -1,0 +1,32 @@
+{
+  "xsappname": "bookshopService",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.BooksViewer",
+      "description": "BooksViewer"
+    },
+    {
+      "name": "$XSAPPNAME.BooksAdmin",
+      "description": "BooksAdmin"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "BooksViewer",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.BooksViewer"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "BooksAdmin",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.BooksAdmin"
+      ],
+      "attribute-references": []
+    }
+  ]
+}

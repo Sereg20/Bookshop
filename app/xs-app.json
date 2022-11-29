@@ -1,0 +1,14 @@
+{
+  "welcomeFile": "/app/bookshopui/webapp/index.html",
+  "routes": [
+    {
+      "source": "^/app/(.*)$",
+      "target": "$1",
+      "localDir": "."
+    },
+    {
+      "source": "^/(.*)$",
+      "destination": "srv-api"
+    }
+  ]
+}
